@@ -10,6 +10,9 @@
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="pack://application:,,,/Resources/Languages/zh.xaml"></ResourceDictionary>
             </ResourceDictionary.MergedDictionaries>
+            
+            <!--颜色表-->
+            <SolidColorBrush x:Key="ColorBrush1">#0b5bcb</SolidColorBrush>
         </ResourceDictionary>
     </Application.Resources>
 </Application>

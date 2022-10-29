@@ -6,4 +6,5 @@
     <s:String x:Key="LangTitleDownload">下载</s:String>
     <s:String x:Key="LangTitleSettings">设置</s:String>
     <s:String x:Key="LangTitleOthers">更多</s:String>
+    
 </ResourceDictionary>
