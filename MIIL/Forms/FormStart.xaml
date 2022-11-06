@@ -6,8 +6,6 @@
         xmlns:local="clr-namespace:MIIL"
         mc:Ignorable="d"
         Title="MIIL" Height="450" Width="800" WindowStyle="None" WindowStartupLocation="CenterScreen">
-    <Grid Margin="0,-8,0,408" Background="#116ecb">
+    <Grid Margin="0,-8,0,408" Background="#116ecb"/>
 
-    </Grid>
-    
 </Window>
