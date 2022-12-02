@@ -1,6 +1,5 @@
 ﻿Class Application
+    Private Sub Application_Startup(ByVal sender As Object, ByVal e As StartupEventArgs) Handles Me.Startup
 
-    ' 应用程序级事件(例如 Startup、Exit 和 DispatcherUnhandledException)
-    ' 可以在此文件中进行处理。
-
+    End Sub
 End Class

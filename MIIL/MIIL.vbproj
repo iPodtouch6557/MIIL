@@ -69,22 +69,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="FormLoading.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Compile Include="Application.xaml.vb">
       <DependentUpon>Application.xaml</DependentUpon>
       <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="FormLoading.xaml.vb">
-      <DependentUpon>FormLoading.xaml</DependentUpon>
     </Compile>
     <Page Include="Forms\FormStart.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Controls\MIILButton.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LoadingApp.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -119,6 +116,11 @@
     <Compile Include="Controls\MIILButton.xaml.vb">
       <DependentUpon>MIILButton.xaml</DependentUpon>
     </Compile>
+    <Compile Include="LoadingApp.xaml.vb">
+      <DependentUpon>LoadingApp.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ModMain.vb" />
+    <Compile Include="Modules.vb" />
     <Compile Include="My Project\AssemblyInfo.vb">
       <SubType>Code</SubType>
     </Compile>
