@@ -73,15 +73,7 @@
       <DependentUpon>Application.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Forms\FormStart.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Controls\MIILButton.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="LoadingApp.xaml">
+    <Page Include="FormMain.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -110,16 +102,11 @@
     <Import Include="System.Windows.Navigation" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Forms\FormStart.xaml.vb">
-      <DependentUpon>FormStart.xaml</DependentUpon>
+    <Compile Include="FormMain.xaml.vb">
+      <DependentUpon>FormMain.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Controls\MIILButton.xaml.vb">
-      <DependentUpon>MIILButton.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="LoadingApp.xaml.vb">
-      <DependentUpon>LoadingApp.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="ModMain.vb" />
+    <Compile Include="Modules\Base\ModBase.vb" />
+    <Compile Include="Modules\Base\ModMain.vb" />
     <Compile Include="Modules.vb" />
     <Compile Include="My Project\AssemblyInfo.vb">
       <SubType>Code</SubType>
@@ -147,6 +134,7 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
+    <Resource Include="Resources\Fonts\Titillium.ttf" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -156,6 +144,10 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controls\" />
+    <Folder Include="Forms\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
