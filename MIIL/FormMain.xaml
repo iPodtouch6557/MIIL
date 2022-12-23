@@ -5,10 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MIIL"
         mc:Ignorable="d"
-        Title="MIIL" Height="450" Width="800" Icon="/icon.png" WindowStyle="None" WindowStartupLocation="CenterScreen" AllowsTransparency="True">
+        Title="MIIL" Height="450" Width="800" Icon="/icon.png" WindowStyle="None" WindowStartupLocation="CenterScreen" AllowsTransparency="True" ResizeMode="NoResize">
     <Grid>
-        <Grid Margin="0,0,0,400" Background="#FF0059FF">
-            <Image HorizontalAlignment="Left" Height="50" VerticalAlignment="Center" Width="50" Source="/icon.png"/>
+        <Grid x:Name="WindowTitle" Margin="0,0,0,400" Background="#FF5C6BC0">
+            <Image x:Name="ImgWindowTitleIcon" HorizontalAlignment="Left" Height="30" VerticalAlignment="Center" Width="30" Source="/icon.png" Margin="10,0,0,0"/>
+            <Label Content="MIIL" HorizontalAlignment="Left" Margin="47,0,0,0" VerticalAlignment="Center" Foreground="White" FontSize="20"/>
+            <Image x:Name="BtnWindowTitleMinisize" HorizontalAlignment="Left" Height="20" Margin="732,0,0,0" VerticalAlignment="Center" Width="20" Source="pack://application:,,,/Resources/Images/Buttons/BtnMiniSize.png"/>
+            <Image x:Name="BtnWindowTitleClose" HorizontalAlignment="Left" Height="20" Margin="762,0,0,0" VerticalAlignment="Center" Width="20" Source="/Resources/Images/Buttons/BtnClose.png"/>
+            <Ellipse HorizontalAlignment="Left" Height="26" Margin="729,0,0,0" Stroke="Black" VerticalAlignment="Center" Width="26"/>
+            <Ellipse HorizontalAlignment="Left" Height="28" Margin="758,0,0,0" Stroke="Black" VerticalAlignment="Center" Width="28"/>
         </Grid>
     </Grid>
 </Window>
